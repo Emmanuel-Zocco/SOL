@@ -1,0 +1,55 @@
+
+.header-link {
+  margin: 0 10px;
+  position: relative;
+  transition: all 0.3s;
+}
+
+.header-link:hover {
+  cursor: pointer;
+}
+
+.header-link:hover::after {
+  content: '';
+  position: absolute;
+  bottom: -5px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 10px;
+  height: 10px;
+  
+}
+.header-link {
+  margin: 0 50px;
+  position: relative;
+  transition: all 0.3s;
+}
+
+.header-link:hover {
+  cursor: pointer;
+}
+
+.header-link:hover::after {
+  content: '';
+  position: absolute;
+  bottom: -5px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 10px;
+  height: 10px;
+  background: transparent;
+}
+
+.biografia-container {
+  background-image: url('/images/fondo1.jpg');
+  background-size: cover;
+  background-position: center;
+  /* Agrega aquí otros estilos para el contenedor de la biografía */
+}
+.biografia-text {
+  color: rgb(17, 17, 17);
+}
+
+
+
+
